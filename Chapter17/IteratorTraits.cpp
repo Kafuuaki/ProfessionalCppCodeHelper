@@ -19,6 +19,9 @@ void iteratorTraitsTest(IteratorType it)
     std::cout << "value type " << ":" << typeid(temp).name() << std::endl;
     temp = *it;
     std::cout << temp << std::endl;
+
+    // std::tuple<int, string, double> a;
+    // std::get<1>(a);
 }
 
 int main() {
